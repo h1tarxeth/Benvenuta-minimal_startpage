@@ -1,0 +1,176 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+* {
+font-family: 'Fira Code', Courier, monospace;}
+padding: 0;
+margin: 0;  
+font-size: 21px;  
+}
+.main{
+}
+body{
+width: 100vw;
+height: 100vh;
+color: #F8F8FF;
+margin:0;
+background-color:#1a1b26;
+}
+
+#time,
+#date,
+#greeting {
+  margin: 25px;
+  text-align: center;
+  display: inline-block;
+}
+
+#greeting {
+  font-size: 1.4em;
+}
+
+#time,
+#date{
+  font-size: 2.5em;
+}
+
+#date {
+  margin-left: 75px;
+}
+
+#time {
+  margin-right: 75px;
+}
+
+.tm,
+.mm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.tm {
+  padding-top: 15vh;
+}
+
+.hidden {
+  display: none;
+}
+
+#bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #303849;
+}
+
+hr{
+  width: 60%;
+  display: block;
+  border: 1px solid  #2ac3de;
+  border-radius: 4px;
+}
+::placeholder { 
+  color: #F8F8FF;
+  opacity: 0.75; 
+}
+
+.tsb {
+outline: none;
+border: none;
+background-color:#303849;
+font-size: 18px;
+}
+
+.button {
+outline: none;
+border-radius: 25px;
+border: none;
+background-color: #303849;
+color: #F8F8FF;
+font-size: 18px;
+}
+
+#toggleButton {
+outline: none;
+border: none;
+border-radius: 25px;
+background-color: #303849;
+color: #F8F8FF;
+font-size: 18px;
+} 
+
+a {
+text-decoration: none;
+color: #F8F8FF;
+}
+
+.vl {
+border-left: 4px solid #2ac3de;
+border-radius: 10px;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 20px;
+height: 200px;
+}
+
+.button_bar{
+display: flex;
+justify-content: center;
+}
+
+#m1,
+#m2 {
+background: #303849;
+border-radius: 10px;
+box-shadow: 5px 5px 2.5px #2ac3de;
+display: flex;
+justify-content: space-evenly;
+padding: 5px;
+margin-top: 15px;
+width: 250px;
+ }
+#m1{
+margin-right: 100px;
+}
+
+td {
+width: 45px;
+padding: 10px;
+border-radius: 10px;
+text-align: center;
+ }
+
+.flx {
+ display: flex;
+ justify-content: center;
+ aligh-item: center;
+ }
+
+.table_button{
+ background: #303849;
+ width: 125px;
+ border: none;
+ border-radius: 50px;
+ margin: 5px;
+ color: #F8F8FF;
+}
+
+.table_button:hover,
+td:hover{
+  background: #2ac3de;
+  color: #F8F8FF;
+  transition: 0.5s;
+}
+
+ .button_div {
+ background: #303849;
+ margin-top: 10px;
+ display: flex;
+ justify-content: space-evenly;
+ aligh-item: center;
+ width: 51vw;
+ height: 40px;
+ border-radius: 50px;
+}

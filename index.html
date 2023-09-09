@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link rel=" shortcut icon" type="image" href="style/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style/app.css" rel="stylesheet" />
+  </head>
+
+  <body class="main">
+    <div class="tm">
+      <span id="time"></span>
+      <span id="date"></span>
+    </div>
+
+    <div class="mm">
+      <span id="greeting"></span>
+      <div id="bar">
+        <button id="toggleButton" onclick="toggleText()">
+          <i class="nf nf-md-magnify"></i>
+        </button>
+        <form id="text1" action="https://duckduckgo.com/" method="get">
+          <input class="tsb" type="text" name="q" placeholder="DuckDuckGo" />
+          <button class="button">search</button>
+        </form>
+        <form
+          class="hidden"
+          id="text2"
+          action="https://google.com/search"
+          method="get"
+        >
+          <input class="tsb" type="text" name="q" placeholder="Google" />
+          <button class="button">search</button>
+        </form>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="button_bar">
+      <div class="button_div">
+        <button class="table_button" onclick="showTables(1)">Daily</button>
+        <button class="table_button" onclick="showTables(2)">Work</button>
+        <button class="table_button" onclick="showTables(3)">Design</button>
+        <button class="table_button" onclick="showTables(4)">Random</button>
+      </div>
+    </div>
+
+    <div class="flx">
+      <div id="m1">
+        <table id="table1">
+          <tr>
+            <td>
+              <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+            </td>
+            <td><a href="https://github.com/h1tarxeth/">Github</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/h1tarxeth/">Drive</a></td>
+            <td><a href="https://docs.google.com/document/u/0/">Docs</a></td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.notion.so/">Notion</a>
+            </td>
+            <td>
+              <a href="https://chat.openai.com/chat">Gpt</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.youtube.com/">Youtube</a>
+            </td>
+            <td>
+              <a href="https://open.spotify.com/">Spotify</a>
+            </td>
+          </tr>
+        </table>
+        <table id="table3" class="hidden">
+          <tr>
+            <td><a href="https://www.w3schools.com/">W3school</a></td>
+            <td><a href="https://en.cppreference.com/">C++</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://gitlab.com">Gitlab</a></td>
+            <td><a href="https://replit.com/">Replit</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://codepen.io/">Codepen</a></td>
+            <td><a href="https://developer.mozilla.org/en-US/">Mdn</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://google.github.io/styleguide/">Gstyle</a></td>
+            <td><a href="https://www.programiz.com/">programiz</a></td>
+          </tr>
+        </table>
+        <table id="table5" class="hidden">
+          <tr>
+            <td><a href="https://www.figma.com/">Figma</a></td>
+            <td><a href="https://fonts.google.com/">Fonts</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://coolors.co/palettes/">Coolors</a></td>
+            <td><a href="https://www.canva.com/">Canva</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://unsplash.com/">Unsplash</a></td>
+            <td><a href="https://spline.design/">Spline</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://jitter.video/gallery/">jitter</a></td>
+            <td><a href="https://gradient.style/">gradient</a></td>
+          </tr>
+        </table>
+        <table id="table7" class="hidden">
+          <tr>
+            <td><a href="https://twitter.com/home">X</a></td>
+            <td><a href="https://www.reddit.com/">Reddit</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.instagram.com/">Instagram</a></td>
+            <td><a href="https://monkeytype.com/">Monkeytype</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://earth.google.com/web/">Earth</a></td>
+            <td><a href="https://www.chess.com/home">Chess</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.twitch.tv/">Twitch</a></td>
+            <td><a href="https://www.udemy.com/">Udemy</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="m2">
+        <table id="table2">
+          <tr>
+            <td><a href="https://wiki.archlinux.org/">Arch</a></td>
+            <td><a href="https://slack.com/">Slack</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://discord.com/app">Dicord</a></td>
+            <td><a href="https://bard.google.com/">Bard</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.office.com/?auth=1">Office</a></td>
+            <td><a href="https://trello.com/">Trello</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://stackoverflow.com/">Stack</a></td>
+            <td><a href="https://excalidraw.com/">xdraw</a></td>
+          </tr>
+        </table>
+
+        <table id="table4" class="hidden">
+          <tr>
+            <td><a href="https://leetcode.com/">Leetcode</a></td>
+            <td><a href="https://neetcode.io/">Neetcode</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://you.com/">You</a></td>
+            <td><a href="https://snappify.com/">Snappify</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://vscode.dev/">Vscode</a></td>
+            <td><a href="https://nvchad.com/">Nvim</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://mobbin.com/">Mobbin</a></td>
+            <td><a href="https://mail.proton.me/u/0/inbox">Proton</a></td>
+          </tr>
+        </table>
+
+        <table id="table6" class="hidden">
+          <tr>
+            <td><a href="https://www.remove.bg/">Bgremover</a></td>
+            <td><a href="https://designer.microsoft.com/">Designer</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://tome.app/">Tome</a></td>
+            <td><a href="https://visbug.web.app/">Visbug</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://dribbble.com/">Dribble</a></td>
+            <td><a href="https://glyphsearch.com/">Glyph</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.nerdfonts.com/">Nerdfonts</a></td>
+            <td><a href="https://jamboard.google.com/u/0/">Jam</a></td>
+          </tr>
+        </table>
+
+        <table id="table8" class="hidden">
+          <tr>
+            <td><a href="https://www.google.com/finance/">Gfinance</a></td>
+            <td><a href="https://www.coursera.org/">Corsera</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://www.netflix.com/">Netflix</a></td>
+            <td><a href="https://aniwatch.to/tv">Anime</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://web.whatsapp.com/">whatsapp</a></td>
+            <td><a href="https://www.adobe.com/">Adobe</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://docs.blender.org/">Blender</a></td>
+            <td><a href="https://www.artstation.com/">Artstation</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="src_js/time.js"></script>
+  <script src="src_js/greet.js"></script>
+  <script src="src_js/serch.js"></script>
+  <script src="src_js/table.js"></script>
+</html>
