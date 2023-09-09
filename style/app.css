@@ -174,3 +174,17 @@ td:hover{
  height: 40px;
  border-radius: 50px;
 }
+@media screen and (max-width: 600px) {
+.button_bar,
+.flx,
+#greeting,
+hr{
+visibility: hidden;
+}
+.tm,
+.mm { 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
