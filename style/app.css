@@ -1,18 +1,62 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+:root{
+/* catppuccin */
+/* --main-bg:#11111b; */
+/* --main-bg2:#181825; */
+/* --main-fg:#b4befe; */
+/* --main-fg2:#cba6f7; */
+/* rosepine */
+--main-bg:#191724;
+--main-bg2:#1f1d2e;
+--main-fg:#e0def4;
+--main-fg2:#eb6f92;
+/* dracula */
+/* --main-bg:#282a36; */
+/* --main-bg2:#44475a; */
+/* --main-fg:#f8f8f2; */
+/* --main-fg2:#ff79c6; */
+/* gruvbox */
+/* --main-bg:#282828; */
+/* --main-bg2:#3c3836;  */
+/* --main-fg:#ebdbb2;   */
+/* --main-fg2:#d65d0e;   */
+/* tokyonight */
+/* --main-bg:#1a1b26;   */
+/* --main-bg2:#1f2335;   */
+/* --main-fg:#c0caf5;   */
+/* --main-fg2:#7dcfff;   */
+/* nord */
+/* --main-bg:#2e3440;    */
+/* --main-bg2:#3b4252; */
+/* --main-fg:#eceff4; */
+/* --main-fg2:#88c0d0; */
+/* Decay-Green */ 
+/* --main-bg:#0f0f0f; */
+/* --main-bg2:#1a1a1a; */
+/* --main-fg:#b4b4b4; */
+/* --main-fg2:#00ff00; */
+};
+
 * {
-font-family: 'Fira Code', Courier, monospace;}
-padding: 0;
-margin: 0;  
-font-size: 21px;  
+  font-family: 'Fira Code', Courier, monospace;
+  padding: 0;
+  margin: 0;  
+  font-size: 21px;  
 }
+
 .main{
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
 }
+
 body{
-width: 100vw;
-height: 100vh;
-color: #F8F8FF;
-margin:0;
-background-color:#1a1b26;
+  width: 100vw;
+  height: 100vh;
+  color: var(--main-fg);
+  margin:0;
+  background-color:var(--main-bg);
 }
 
 #time,
@@ -62,129 +106,127 @@ background-color:#1a1b26;
   align-items: center;
   padding: 5px;
   border-radius: 25px;
-  background-color: #303849;
+  background-color: var(--main-bg2);
 }
 
 hr{
   width: 60%;
   display: block;
-  border: 1px solid  #2ac3de;
+  border: 1px solid  var(--main-fg2);
   border-radius: 4px;
 }
 ::placeholder { 
-  color: #F8F8FF;
+  color: var(--main-fg);
   opacity: 0.75; 
 }
 
 .tsb {
-outline: none;
-border: none;
-background-color:#303849;
-font-size: 18px;
+  outline: none;
+  border: none;
+  background-color:var(--main-bg2);
+  font-size: 18px;
 }
 
 .button {
-outline: none;
-border-radius: 25px;
-border: none;
-background-color: #303849;
-color: #F8F8FF;
-font-size: 18px;
+  outline: none;
+  border-radius: 25px;
+  border: none;
+  background-color: var(--main-bg2);
+  color: var(--main-fg);
+  font-size: 18px;
 }
 
 #toggleButton {
-outline: none;
-border: none;
-border-radius: 25px;
-background-color: #303849;
-color: #F8F8FF;
-font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--main-bg2);
+  color: var(--main-fg);
+  font-size: 18px;
 } 
 
 a {
-text-decoration: none;
-color: #F8F8FF;
+  text-decoration: none;
+  color: var(--main-fg);
 }
 
-.vl {
-border-left: 4px solid #2ac3de;
-border-radius: 10px;
-margin-left: 40px;
-margin-right: 40px;
-margin-top: 20px;
-height: 200px;
+.table_button:hover,
+a:hover{
+  color: var(--main-bg2);
+  transition: 0.0s;
 }
 
 .button_bar{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #m1,
 #m2 {
-background: #303849;
-border-radius: 10px;
-box-shadow: 5px 5px 2.5px #2ac3de;
-display: flex;
-justify-content: space-evenly;
-padding: 5px;
-margin-top: 15px;
-width: 250px;
+  background: var(--main-bg2);
+  border-radius: 10px;
+  box-shadow: 5px 5px 2.5px var(--main-fg2);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin-top: 15px;
+  width: 250px;
  }
+
 #m1{
-margin-right: 100px;
+  margin-right: 100px;
 }
 
 td {
-width: 45px;
-padding: 10px;
-border-radius: 10px;
-text-align: center;
+  width: 45px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
  }
 
 .flx {
- display: flex;
- justify-content: center;
- aligh-item: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
 .table_button{
- background: #303849;
- width: 125px;
- border: none;
- border-radius: 50px;
- margin: 5px;
- color: #F8F8FF;
+   background: var(--main-bg2);
+   width: 125px;
+   border: none;
+   border-radius: 50px;
+   margin: 5px;
+   color: var(--main-fg);
 }
 
 .table_button:hover,
 td:hover{
-  background: #2ac3de;
-  color: #F8F8FF;
+  background: var(--main-fg2);
   transition: 0.5s;
 }
 
  .button_div {
- background: #303849;
- margin-top: 10px;
- display: flex;
- justify-content: space-evenly;
- aligh-item: center;
- width: 51vw;
- height: 40px;
- border-radius: 50px;
+  background: var(--main-bg2);
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 51vw;
+  height: 40px;
+  border-radius: 50px;
 }
+
 @media screen and (max-width: 600px) {
 .button_bar,
 .flx,
 #greeting,
-hr{
-visibility: hidden;
-}
-.tm,
-.mm { 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  hr{
+    visibility: hidden;
   }
+  .tm,
+  .mm { 
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 }
