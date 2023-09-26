@@ -29,31 +29,31 @@
 
 ## rose pine
 
-![](images/20230925_12h05m56s_grim.jpeg)
+![](https://github.com/h1tarxeth/Benvenuta-minimal_startpage/blob/main/assets/rose.jpeg)
 
 ## catppuccin
 
-![](images/20230925_12h07m05s_grim.jpeg)
+![](https://github.com/h1tarxeth/Benvenuta-minimal_startpage/blob/main/assets/cat.jpeg)
 
 ## dracula
 
-![](images/20230925_12h08m22s_grim.jpeg)
+![](https://github.com/h1tarxeth/Benvenuta-minimal_startpage/blob/main/assets/dracula.jpeg)
 
 ## gruvbox
 
-![](images/20230925_12h09m11s_grim.jpeg)
+![](https://github.com/h1tarxeth/Benvenuta-minimal_startpage/blob/main/assets/grove.jpeg)
 
 ## tokyo night
 
-![](images/20230925_12h09m50s_grim.jpeg)
+![](https://github.com/h1tarxeth/Benvenuta-minimal_startpage/blob/main/assets/tokyo.jpeg)
 
 ## nord
 
-![](images/20230925_12h10m38s_grim.jpeg)
+![](https://github.com/h1tarxeth/Benvenuta-minimal_startpage/blob/main/assets/nord.jpeg)
 
 ## Decay-Green
 
-![](images/20230925_12h11m10s_grim.jpeg)
+![](https://github.com/h1tarxeth/Benvenuta-minimal_startpage/blob/main/assets/green.jpeg)
 
 # 🪛 Made with vanila
 
