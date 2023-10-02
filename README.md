@@ -14,10 +14,10 @@
 - clean look with eassy access.
 - Clock,Date and Greetings.
 
-# ⚙️ How to Configer
+# ⚙️ How to Configure
 
 1. Fork this repo
-2. change the name(greet.js) ,theme(app.css) and links(index.html) as you like
+2. change the name (greet.js), theme (app.css) and links (index.html) as you like
 3. Enable the Github Pages service Settings → GitHub Pages → Source [master branch] → Save
 4. Set it as Home Page
 5. for new tabs
