@@ -1,9 +1,10 @@
+
 <p align="center">
     <h2 align="center">Benvenuta</h2>
 </p>
+
 ![Developed by Badge](https://img.shields.io/badge/Dveloped_by-h1tarxeth-blue?logo=windowsterminal)
 ![Powerd by Badge](https://img.shields.io/badge/Powerd_by-HTML%2C_CSS%2C_JS-orange?logo=html5)
-
 
 # 🔮About
 
